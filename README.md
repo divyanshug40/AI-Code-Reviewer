@@ -49,15 +49,16 @@ To run this Python code review app locally, follow these steps:
    pip install -r requirements.txt```
    Ensure that you have **Streamlit** and **google-generativeai** in the requirements.txt file.
 3. **Set Up API Key**:
-   The app uses Google’s Generative AI API. Make sure you have a valid API key from Google’s platform. Set it up in the script as shown below:
+The app uses Google’s Generative AI API. Make sure you have a valid API key from Google’s platform. Set it up in the script as shown below:
    
   ```python
   ai.configure(api_key="YOUR_API_KEY")
 ```
   Replace "YOUR_API_KEY" with your actual API key.
-4. **Run the Application**:
+4.  **Run the Application**:
   Finally, run the Streamlit app using the following command:
 
   ```bash
-  streamlit run app.py```
+  streamlit run app.py
+```
   This will open the app in your browser where you can start testing it.
