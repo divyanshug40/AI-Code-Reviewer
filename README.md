@@ -35,7 +35,7 @@ To run this Python code review app locally, follow these steps:
 
 - Python 3.x
 - Streamlit (for building the web interface)
-- Google Generative AI SDK (for code reviewing)
+- Google Generative AI (for code reviewing)
 
 ### Step-by-Step Guide
 
