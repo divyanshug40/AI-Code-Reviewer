@@ -7,8 +7,10 @@ load_dotenv()  # take environment variables
 
 google_api_key = os.getenv("api_key")
 
-ai.configure(api_key="AIzaSyB878TajR7UN2Lc_S4CJP3mJsw4FZVJXf8")
-
+if not google_api_key:
+    st.error("API key is missing. Please set the 'api_key' in your .env file.")
+else:
+    ai.configure(api_key=google_api_key)
 
 sys_prompt = """
 You are an AI Python Code Reviewer. Your task is to assist users by reviewing Python code snippets in a user-friendly, efficient, and accurate manner.Focus solely on Python and coding questions, providing example-based explanations
