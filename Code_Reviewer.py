@@ -5,8 +5,8 @@ import os
 
 load_dotenv()  # take environment variables
 
-google_api_key = os.getenv("api_key")
-
+google_api_key = os.getenv("Api_key")
+print(google_api_key)
 if not google_api_key:
     st.error("API key is missing. Please set the 'api_key' in your .env file.")
 else:
