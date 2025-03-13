@@ -7,7 +7,7 @@ load_dotenv()  # take environment variables
 
 google_api_key = os.getenv("api_key")
 
-ai.configure(api_key=google_api_key)
+ai.configure(api_key="AIzaSyB878TajR7UN2Lc_S4CJP3mJsw4FZVJXf8")
 
 
 sys_prompt = """
